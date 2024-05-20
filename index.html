@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AquaStyle Inicio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+
+    <!-- Cargue el estilo de fuentes después de cargar los estilos de diseño -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+</head>
+
+<style>
+    .carrusel-alto {
+        height: 590px;
+    }
+
+    .fondo {
+        background-image: url('./assets/img/atardecer.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .fondo-2 {
+        background-image: url('./assets/img/nadadora-profesional-alberca.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body>
+    <!-- inicio barra de navegacion superior -->
+    <nav class="barra-info">
+        <div class="contenedor">
+            <div class="contenido">
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@aquastyle.com">info@aquastyle.com</a>
+                    <i class="fa fa-phone"></i>
+                    <a href="tel:010-020-0340">010-020-0340</a>
+                </div>
+                <div>
+                    <a href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i
+                            class="fab fa-facebook-f fa-sm fa-fw"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fab fa-instagram fa-sm fa-fw"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin barra de navegacion superior -->
+
+    <!-- Header -->
+    <nav class="barra-navegacion">
+        <div class="contenedor">
+            <a class="h1 logo" href="index.html">
+                AquaStyle
+            </a>
+            <button id="btn-hamburguesa" class="menu-boton" type="button">
+                <span class="menu-icon-phone"></span>
+            </button>
+
+            <div id="menu-navegacion">
+                <div class="caja">
+                    <ul class="menu-caja-link">
+                        <li>
+                            <a class="menu-link" href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="menu-link" href="acerca-de.html">Acerca de nosotros</a>
+                        </li>
+                        <li>
+                            <a class="menu-link" href="#">Tienda</a>
+                        </li>
+                        <li>
+                            <a class="menu-link" href="contactanos.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="caja-icon">
+                    <div class="seccion-buscar">
+                        <div class="input-grupo">
+                            <input type="text" class="form-contro" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-grupo-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="menu-icon-lupa" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search"></i>
+                    </a>
+                    <a class="menu-icon" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down"></i>
+                        <span>7</span>
+                    </a>
+                    <a class="menu-icon" href="#">
+                        <i class="fa fa-fw fa-user"></i>
+                        <span>+99</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Header -->
+
+    <!-- Incio Banner-->
+    <div id="carrusel-aquastyle" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carrusel-aquastyle" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carrusel-aquastyle" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carrusel-aquastyle" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carrusel-aquastyle" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item carrusel-alto active">
+                <div class="container carrusel-alto">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/nadador-profesional.png"
+                                alt="Accesorios de natación como aletas, visor y snorkel. ">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success"><b>AquaStyle</b> </h1>
+                                <h3 class="h2">20% de descuento</h3>
+                                <p>
+                                    Aprovecha el 20% de descuento en accesorios.
+                                </p>
+                                <p><a class="btn btn-success">Ir a la tienda</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carrusel-alto">
+                <div class="container carrusel-alto fondo">
+                    <div class="row p-5">
+                        <div>
+                            <div style="width: 500px; float: right; margin-top: 40px;">
+                                <h1 class="h1">Aprovecha las ofertas.</h1>
+                                <p>
+                                    Explora nuestra colección de trajes de baño y natación diseñados para tu mejor
+                                    rendimiento y comodidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carrusel-alto">
+                <div class="container carrusel-alto">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/nadador-profesional-salida.png"
+                                alt="Categoria de trajes de baño, traje de baño completo color azul para natación">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Aprovecha las ofertas.</h1>
+                                <h3 class="h2">10% de descuento en trajes de baño</h3>
+                                <p>
+                                    Aprovecha el 10% de descuento en trajes de baño hasta el 30 de octubre.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carrusel-alto">
+                <div class="container carrusel-alto fondo-2 ">
+                    <div class="row p-5">
+                        <div>
+                            <div style="width: 500px; float: left; margin-top: 40px; color: white;">
+                                <h1 class="h1">Aprovecha las ofertas.</h1>
+                                <p>
+                                    Explora nuestra colección de trajes de baño y natación para mujer, diseñados para tu
+                                    mejor
+                                    rendimiento y comodidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#carrusel-aquastyle" role="button"
+            data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#carrusel-aquastyle" role="button"
+            data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- Fin de banner -->
+
+    <!-- Inicio categoria del mes -->
+    <section class="contenedor catergoria-mes">
+        <div class="fila">
+            <div class="texto">
+                <h1 class="h1">Categorías del mes</h1>
+                <p>
+                    ¡Explora nuestra categoría del mes!
+                    Encuentra trajes de baño modernos, gafas, gorros, aletas y más para maximizar tu experiencia
+                    acuática.
+                    Estilo y funcionalidad. ¡Sumérgete con nosotros!
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="categorias-item">
+                <a href="#"><img src="./assets/img/cat-trajes-bano.jpg"
+                        alt="Categoria de trajes de baño, traje de baño completo color azul para natación"></a>
+                <h2>Trajes de baño y bikinis</h2>
+                <p><a class="boton-verde">Ir a la tienda</a></p>
+            </div>
+            <div class="categorias-item">
+                <a href="#"><img src="./assets/img/cat-accesorios-natacion.jpg"
+                        alt="Accesorios de natación como aletas, visor y snorkel. "></a>
+                <h2>Accesorios de natación</h2>
+                <p><a class="boton-verde">Ir a la tienda</a></p>
+            </div>
+            <div class="categorias-item">
+                <a href="#"><img src="./assets/img/cat-toallas.jpg"
+                        alt="Categoria de toallas para secarse, toalla color azul "></a>
+                <h2>Toallas</h2>
+                <p><a class="boton-verde">Ir a la tienda</a></p>
+            </div>
+        </div>
+    </section>
+    <!--Fin categoria del mes -->
+
+    <!-- inicio producto destacado -->
+    <section class="producto-destacado">
+        <div class="contenedor">
+            <div class="encabezado fila">
+                <div>
+                    <h1 class="h1">Producto destacado</h1>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="producto-item">
+                    <div class="tarjeta">
+                        <a href="#">
+                            <img src="./assets/img/bikini-traje-baño.jpg"
+                                alt="Traje de baño completo color azul para natación">
+                        </a>
+                        <div class="tarjeta-cuerpo">
+                            <ul>
+                                <li>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-apagado fa fa-star"></i>
+                                    <i class="texto-apagado fa fa-star"></i>
+                                </li>
+                                <li class="texto-apagado">$1024.00</li>
+                            </ul>
+                            <a href="#" class="h2">Traje de baño</a>
+                            <p class="tarjeta-texto">
+                            </p>
+                            <p class="texto-apagado">Reseñas (24)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="producto-item">
+                    <div class="tarjeta">
+                        <a href="#">
+                            <img src="./assets/img/gafas-natacion-azul.jpg"
+                                alt="Gafas para natación color gris con negro">
+                        </a>
+                        <div class="tarjeta-cuerpo">
+                            <ul>
+                                <li>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-apagado fa fa-star"></i>
+                                    <i class="texto-apagado fa fa-star"></i>
+                                </li>
+                                <li class="texto-apagado">$780.00</li>
+                            </ul>
+                            <a href="#" class="h2">Goggles</a>
+                            <p>
+                            </p>
+                            <p class="texto-apagado">Reseñas (48)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="producto-item">
+                    <div class="tarjeta">
+                        <a href="#">
+                            <img src="./assets/img/set-de-natacion-verde.jpg"
+                                alt="Clip de nariz para natación color naranja">
+                        </a>
+                        <div class="tarjeta-cuerpo">
+                            <ul>
+                                <li>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                    <i class="texto-advertencia fa fa-star"></i>
+                                </li>
+                                <li class="texto-apagado">$249.00</li>
+                            </ul>
+                            <a href="#" class="h2">Set de natación</a>
+                            <p>
+                            </p>
+                            <p class="texto-apagado">Reseñas (74)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin producto destacado -->
+
+
+    <!--inicio Footer -->
+    <footer id="aqua-footer">
+        <div class="contenedor">
+            <div class="fila">
+                <div class="footer-seccion-3">
+                    <h2 class="logo-f">AquaStyle</h2>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            123 Consectetur at ligula 10660
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a href="tel:010-020-0340">010-020-0340</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a href="mailto:info@aquastyle.com">info@aquastyle.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-seccion-3">
+                    <h2 class="footer-encabezado">Productos</h2>
+                    <ul>
+                        <li><a href="#">Goggles</a></li>
+                        <li><a href="#">Snorkel</a></li>
+                        <li><a href="#">Trajes de baño</a></li>
+                        <li><a href="#">Aletas</a></li>
+                        <li><a href="#">Toallas</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-seccion-3">
+                    <h2 class="footer-encabezado">Página</h2>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Acerca de nosotros</a></li>
+                        <li><a href="#">Tienda</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fin Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
